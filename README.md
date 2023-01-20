@@ -3,6 +3,9 @@
 To Do List consumindo inicialmente a API: https://jsonplaceholder.cypress.io/todos?_limit=10, com tarefas genéricas, mas na aplicação há como inserir suas próprias tasks a serem compridas, marcar ou desmarcar como concluídas, removê-las e vizualizar seus detalhes.
 <br>
 <br>
+`Link para acesso do To Do List:` https://todolist-purple.vercel.app
+<br>
+<br>
 ![1](https://user-images.githubusercontent.com/106918230/213594055-f15b7f39-378f-42f2-8125-259a66632d09.png)
 <br>
 <br>
