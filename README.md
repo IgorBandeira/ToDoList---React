@@ -1,6 +1,6 @@
 # To Do List ![image](https://user-images.githubusercontent.com/106918230/213592336-fc8b9193-77fb-4567-b32d-2025703c73f1.png)
 # `React com JavaScript`
-To Do List consumindo inicialmente a API: https://jsonplaceholder.cypress.io/todos?_limit=10, com tarefas genéricas, mas na aplicação há como inserir suas próprias tasks a serem cumpridas, marcar ou desmarcar como concluídas, removê-las e vizualizar seus detalhes.
+To Do List consumindo inicialmente a API: https://jsonplaceholder.cypress.io/todos?_limit=10, com tarefas genéricas, mas na aplicação há como inserir suas próprias tasks a serem cumpridas, marcar ou desmarcar como concluídas, removê-las e visualizar seus detalhes.
 <br>
 <br>
 `Link para acesso do To Do List:` https://todolist-purple.vercel.app
