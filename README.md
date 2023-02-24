@@ -6,8 +6,16 @@ To Do List consumindo inicialmente a API: https://jsonplaceholder.cypress.io/tod
 `Link para acesso do To Do List:` https://todolist-purple.vercel.app
 <br>
 <br>
-![1](https://user-images.githubusercontent.com/106918230/213594055-f15b7f39-378f-42f2-8125-259a66632d09.png)
+# Light Theme ☀️
+![image](https://user-images.githubusercontent.com/106918230/220807441-7f676108-efac-4d2e-8aca-fd7218eeb5ec.png)
 <br>
 <br>
-![2](https://user-images.githubusercontent.com/106918230/213594219-1ca6508c-6d8e-4e02-b579-1c45c67e8731.png)
+![image](https://user-images.githubusercontent.com/106918230/220807544-ae55cc6b-cb2f-460e-a27f-80f336a69416.png)
+<br>
+<br>
+# `Dark Theme ☾`
+![image](https://user-images.githubusercontent.com/106918230/220807715-a5e18a6e-5881-4454-9091-aa7abcf7017e.png)
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/106918230/220807793-5b18fec5-89cb-4430-af74-2c1adc12967b.png)
 
