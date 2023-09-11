@@ -1,3 +1,9 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
 .container {
   max-width: 500px;
   margin: 30px auto;
@@ -6,4 +12,31 @@
   border: 8px solid rgb(167, 9, 159);
   padding: 30px;
   border-radius: 10px;
+}
+
+.custom-icon {
+  fill: purple;
+  color: purple;
+}
+
+.dark-body {
+  background: linear-gradient(90deg, rgb(76, 22, 83) 0%, rgb(85, 0, 50) 100%);
+  color: #fe1cd9;
+  transition: 2s;
+}
+
+.light-body {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 0, 119) 0%,
+    rgb(225, 0, 255) 100%
+  );
+  color: #6b056f;
+  transition: 2s;
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    margin: 30px 10px;
+  }
 }

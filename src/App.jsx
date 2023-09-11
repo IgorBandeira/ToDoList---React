@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import axios from "axios";
+import { Moon, Sun } from "lucide-react";
 
 import Header from "./components/Header/index.jsx";
 import AddTask from "./components/AddTask.js";
@@ -40,6 +41,7 @@ const App = () => {
     });
     setTasks(newTasks);
   };
+
   const handleTaskAdition = (taskTitle) => {
     const newTasks = [
       ...tasks,
@@ -57,8 +59,33 @@ const App = () => {
     setTasks(newTasks);
   };
 
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  const toggleTheme = () => {
+    setIsDarkTheme(!isDarkTheme);
+  };
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (isDarkTheme) {
+      body.classList.add("dark-body");
+      body.classList.remove("light-body");
+    } else {
+      body.classList.add("light-body");
+      body.classList.remove("dark-body");
+    }
+  }, [isDarkTheme]);
+
   return (
     <Router>
+      <i className="theme-toggle-button" onClick={toggleTheme}>
+        {isDarkTheme ? (
+          <Moon className="custom-icon" size={96} />
+        ) : (
+          <Sun className="custom-icon" size={96} />
+        )}
+      </i>
+
       <div className="container">
         <Header />
         <Route
@@ -80,4 +107,5 @@ const App = () => {
     </Router>
   );
 };
+
 export default App;

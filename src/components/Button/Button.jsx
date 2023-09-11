@@ -8,5 +8,5 @@ const Button = ({ children, onClick }) => {
     </button>
   );
 };
-<Button>Adicionar</Button>;
+<Button>Add</Button>;
 export default Button;
