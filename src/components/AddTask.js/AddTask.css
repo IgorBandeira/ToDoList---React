@@ -12,12 +12,8 @@
   flex: 2;
   background-color: rgb(167, 9, 159);
   border: 2px #fb6bd5 solid;
-  color: #eee;
   font-size: 16px;
-}
-
-.add-task-input:focus {
-  color: #444;
+  color: #c7c7c7;
   font-weight: bolder;
 }
 

@@ -13,21 +13,26 @@ const Task = ({ task, handleCompleteClick, handleTaskDeletion }) => {
   return (
     <div
       className="task-container"
-      style={task.completed ? { borderLeft: "6px solid #C146CD" } : {}}
+      style={task.completed ? { borderLeft: "10px solid #C146CD" } : {}}
+      onClick={() => handleCompleteClick(task.id)}
     >
-      <div className="task-title" onClick={() => handleCompleteClick(task.id)}>
-        {task.title}
-      </div>
+      <div className="task-title">{task.title}</div>
       <div className="buttons-container">
         <button
           className="remove-task-button"
-          onClick={() => handleTaskDeletion(task.id)}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleTaskDeletion(task.id);
+          }}
         >
           <CgClose />
         </button>
         <button
           className="see-task-details-button"
-          onClick={handleTaskDetailsClick}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleTaskDetailsClick();
+          }}
         >
           <CgInfo />
         </button>
